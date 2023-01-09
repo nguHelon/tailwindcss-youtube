@@ -9,12 +9,12 @@ module.exports = {
       xl: '1440px'
     },
     colors: {
-      superDark: '#212121',
+      superDark: '#111',
       normalDark: '#232323',
-      gray: '#6e6e6e',
-      red: '#ff0000',
+      gray: '#333',
+      redColor: '#ff0000',
       superLightGray: '#fafafa',
-      white: '#ffffff'
+      whiteColor: '#ffffff'
     },
     extend: {},
   },

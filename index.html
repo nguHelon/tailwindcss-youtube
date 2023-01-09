@@ -6,12 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/691ea90499.js" crossorigin="anonymous"></script>
     <title>Youtube Design</title>
 </head>
 
 <body>
 
-    <h1 class="text-black font-bold underline text-4xl">Ngu Helon</h1>
+    <div class="w-full flex justify-between items-center bg-normalDark px-7 py-4">
+        <div class="basis-1/4 flex justify-start space-x-10 items-center">
+            <i class="fa-solid fa-bars text-2xl text-whiteColor"></i>
+            <a href="#" class="text-whiteColor font-bold text-xl no-underline">
+                <i class="fa-brands fa-youtube text-redColor text-xl"></i>YouTube
+            </a>
+        </div>
+
+        <div class="basis-1/2 h-10 flex items-center justify-center space-x-3">
+            <div class="basis-4/5 h-full flex items-center justify-center space-x-0">
+                <input type="text"
+                    class="basis-4/5 h-full px-3 text-lg bg-superDark rounded-l-full outline-none text-whiteColor"
+                    placeholder="search">
+                <button class="basis-1/5 h-full  bg-gray text-whiteColor rounded-r-full"><i
+                        class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <button
+                class="fa-solid fa-microphone basis-10 h-full p-2 rounded-full bg-gray text-whiteColor font-bold w-3"><i></i></button>
+        </div>
+
+        <div class="basis-1/4 flex justify-end">
+            <ul class="basis-1/2 flex items-center justify-between">
+                <li><i class="fa-solid fa-magnifying-glass text-lg text-whiteColor md:hidden"></i></li>
+                <li><i class="fa-solid fa-microphone text-lg text-whiteColor md:hidden"></i></li>
+                <li><i class="fa-solid fa-plus text-lg text-whiteColor"></i></li>
+                <li><i class="fa-regular fa-bell text-lg text-whiteColor"></i></li>
+                <li class="h-10 w-10">
+                    <img src="images/helon.jpg" class=" rounded-full" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 
