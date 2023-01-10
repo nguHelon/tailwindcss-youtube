@@ -11,8 +11,10 @@ module.exports = {
     colors: {
       superDark: '#111',
       normalDark: '#232323',
-      gray: '#333',
+      normalgray: '#333',
+      border: '#444',
       redColor: '#ff0000',
+      textcolor: '#8e8e8e',
       superLightGray: '#fafafa',
       whiteColor: '#ffffff'
     },

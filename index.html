@@ -23,28 +23,327 @@
         <div class="basis-1/2 h-10 flex items-center justify-center space-x-3">
             <div class="basis-4/5 h-full flex items-center justify-center space-x-0">
                 <input type="text"
-                    class="basis-4/5 h-full px-3 text-lg bg-superDark rounded-l-full outline-none text-whiteColor"
+                    class="basis-4/5 h-full px-3 text-lg bg-superDark rounded-l-full outline-none text-whiteColor border border-normalgray"
                     placeholder="search">
-                <button class="basis-1/5 h-full  bg-gray text-whiteColor rounded-r-full"><i
+                <button class="basis-1/5 h-full  bg-normalgray text-whiteColor rounded-r-full"><i
                         class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <button
-                class="fa-solid fa-microphone basis-10 h-full p-2 rounded-full bg-gray text-whiteColor font-bold w-3"><i></i></button>
+                class="fa-solid fa-microphone basis-10 h-full p-2 rounded-full bg-superDark text-whiteColor font-bold w-3"><i></i></button>
         </div>
 
         <div class="basis-1/4 flex justify-end">
-            <ul class="basis-1/2 flex items-center justify-between">
-                <li><i class="fa-solid fa-magnifying-glass text-lg text-whiteColor md:hidden"></i></li>
-                <li><i class="fa-solid fa-microphone text-lg text-whiteColor md:hidden"></i></li>
+            <ul class="basis-1/2 flex items-center justify-end space-x-4">
+                <li class="block md:hidden"><i class="fa-solid block fa-magnifying-glass text-lg text-whiteColor"></i>
+                </li>
+                <li class="block md:hidden"><i class="fa-solid block fa-microphone text-lg text-whiteColor"></i></li>
                 <li><i class="fa-solid fa-plus text-lg text-whiteColor"></i></li>
                 <li><i class="fa-regular fa-bell text-lg text-whiteColor"></i></li>
-                <li class="h-10 w-10">
+                <li class="h-8 w-8">
                     <img src="images/helon.jpg" class=" rounded-full" alt="">
                 </li>
             </ul>
         </div>
     </div>
 
+
+    <section id="mainbody" class="w-full py-3 flex items-start justify-end space-x-0 bg-normalDark">
+        <div class="w-2/12 h-5/6 pr-10 overflow-y-scroll fixed left-0 bg-normalDark self-start">
+            <ul class="w-full flex flex-col space-y-4">
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-house "></i>
+                    <span>Home</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-video "></i>
+                    <span>Shorts</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-user-plus "></i>
+                    <span>Subscriptions</span>
+                </li>
+                <hr class="bg-superLightGray h-1">
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-book "></i>
+                    <span>Library</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-clock-rotate-left "></i>
+                    <span>History</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-camera "></i>
+                    <span>Your videos</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-clock "></i>
+                    <span>Watch Later</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-thumbs-up "></i>
+                    <span>Like videos</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-brands fa-playstation "></i>
+                    <span>Playlist</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-play "></i>
+                    <span>Playing - "chill lofi beats"</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class="fa-solid fa-angle-up "></i>
+                    <span>Show less</span>
+                </li>
+                <hr class="bg-superLightGray h-1">
+            </ul>
+            <ul class="w-full flex flex-col space-y-4">
+                <h2 class="ml-4 text-textcolor text-xl font-medium my-4">Subscriptions</h2>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>Ngu Helon</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>Simplilearn</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>Javascript Mastery</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>freecodecamp</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>firshipe</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>Internet Made Coder</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>masyleigh</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>Andres Vidoza</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <img src="images/helon.jpg" class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <p>Ngu Helon</p>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <div class="w-7 h-7">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                    <span>Show less</span>
+                </li>
+                <hr class="bg-superLightGray h-1">
+            </ul>
+            <ul class="w-full flex flex-col space-y-4">
+                <h2 class="ml-4 text-textcolor text-xl font-medium my-4">Explore</h2>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class=" fa-solid fa-fire"></i>
+                    <span>Trending</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class=" fa-solid fa-music"></i>
+                    <span>Music</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class=" fa-solid fa-life-ring"></i>
+                    <span>Live</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class=" fa-solid fa-gamepad"></i>
+                    <span>Gaming</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class=" fa-solid fa-newspaper"></i>
+                    <span>News</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class=" fa-solid fa-trophy"></i>
+                    <span>Sports</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class=" fa-solid fa-school"></i>
+                    <span>Learning</span>
+                </li>
+                <li class="ml-4 flex items-center space-x-5 text-superLightGray">
+                    <i class=" fa-solid fa-shirt"></i>
+                    <span>Fashion & Beauty</span>
+                </li>
+            </ul>
+        </div>
+        <div class="w-10/12 flex flex-col justify-end">
+            <div class="w-full py-3 px-7 bg-normalDark border border-l-0 border-normalgray">
+                <ul class="w-full flex items-center space-x-3">
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        All
+                    </li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        Computer
+                    </li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        Programming
+                    </li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        hardware
+                    </li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        Software
+                    </li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        Desk
+                        setups
+                    </li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        gaming
+                        laptops</li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        home
+                        makeover</li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        controllers
+                    </li>
+                    <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
+                        PlayStation
+                    </li>
+                </ul>
+            </div>
+
+            <div class="w-full grid gap-4 grid-cols-4 py-3 px-7 bg-superDark">
+                <div class="item w-full max-h-96">
+                    <div class="w-full block h-3/5">
+                        <img src="images/cat-aesthetic-pc-wallpape7c5dn.jpg" class="w-full h-full rounded-xl" alt="">
+                    </div>
+                    <div class="w-full flex items-start justify-between py-3 pr-3">
+                        <img src="images/helon.jpg" class="w-12 h-12 rounded-full" alt="">
+                        <div class="basis-4/5">
+                            <div class="w-full flex items-start space-x-2 text-whiteColor mb-2">
+                                <p class="font-bold">Image of a beautiful cat, who doesn't like cats, just
+                                    coding</p>
+                                <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                            </div>
+                            <h3 class="text-textcolor text-sm">Ngu Helon <i class="fa-solid fa-circle-check"></i></h3>
+                            <p class="text-textcolor text-sm">1M views -> 1 hour ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-full max-h-96">
+                    <div class="w-full block h-3/5">
+                        <img src="images/light-bulb-simple-minimalism-black-background-hd-wallpaper-preview.jpg"
+                            class="w-full h-full rounded-xl" alt="">
+                    </div>
+                    <div class="w-full flex items-start justify-between py-3 pr-3">
+                        <img src="images/helon.jpg" class="w-12 h-12 rounded-full" alt="">
+                        <div class="basis-4/5">
+                            <div class="w-full flex items-start space-x-2 text-whiteColor mb-2">
+                                <p class="font-bold">Image of a beautiful cat, who doesn't like cats, just
+                                    coding</p>
+                                <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                            </div>
+                            <h3 class="text-textcolor text-sm">Ngu Helon <i class="fa-solid fa-circle-check"></i></h3>
+                            <p class="text-textcolor text-sm">1M views -> 1 hour ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-full max-h-96">
+                    <div class="w-full block h-3/5">
+                        <img src="images/cat-aesthetic-pc-wallpape7c5dn.jpg" class="w-full h-full rounded-xl" alt="">
+                    </div>
+                    <div class="w-full flex items-start justify-between py-3 pr-3">
+                        <img src="images/javascript-minimalism-wallpaper-preview.jpg" class="w-12 h-12 rounded-full"
+                            alt="">
+                        <div class="basis-4/5">
+                            <div class="w-full flex items-start space-x-2 text-whiteColor mb-2">
+                                <p class="font-bold">Image of a beautiful cat, who doesn't like cats, just
+                                    coding</p>
+                                <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                            </div>
+                            <h3 class="text-textcolor text-sm">Ngu Helon <i class="fa-solid fa-circle-check"></i></h3>
+                            <p class="text-textcolor text-sm">1M views -> 1 hour ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-full max-h-96">
+                    <div class="w-full block h-3/5">
+                        <img src="images/Gold-minimal-clock-black-backgrounds.jpg" class="w-full h-full rounded-xl"
+                            alt="">
+                    </div>
+                    <div class="w-full flex items-start justify-between py-3 pr-3">
+                        <img src="images/helon.jpg" class="w-12 h-12 rounded-full" alt="">
+                        <div class="basis-4/5">
+                            <div class="w-full flex items-start space-x-2 text-whiteColor mb-2">
+                                <p class="font-bold">Image of a beautiful cat, who doesn't like cats, just
+                                    coding</p>
+                                <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                            </div>
+                            <h3 class="text-textcolor text-sm">Ngu Helon <i class="fa-solid fa-circle-check"></i></h3>
+                            <p class="text-textcolor text-sm">1M views -> 1 hour ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-full max-h-96">
+                    <div class="w-full block h-3/5">
+                        <img src="images/HD-Deer-Minimalist-Photos.png" class="w-full h-full rounded-xl" alt="">
+                    </div>
+                    <div class="w-full flex items-start justify-between py-3 pr-3">
+                        <img src="images/helon.jpg" class="w-12 h-12 rounded-full" alt="">
+                        <div class="basis-4/5">
+                            <div class="w-full flex items-start space-x-2 text-whiteColor mb-2">
+                                <p class="font-bold">Image of a beautiful cat, who doesn't like cats, just
+                                    coding</p>
+                                <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                            </div>
+                            <h3 class="text-textcolor text-sm">Ngu Helon <i class="fa-solid fa-circle-check"></i></h3>
+                            <p class="text-textcolor text-sm">1M views -> 1 hour ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-full max-h-96">
+                    <div class="w-full block h-3/5">
+                        <img src="images/Black-minimalist-minimalistic-HD-wallpapers.jpg"
+                            class="w-full h-full rounded-xl" alt="">
+                    </div>
+                    <div class="w-full flex items-start justify-between py-3 pr-3">
+                        <img src="images/helon.jpg" class="w-12 h-12 rounded-full" alt="">
+                        <div class="basis-4/5">
+                            <div class="w-full flex items-start space-x-2 text-whiteColor mb-2">
+                                <p class="font-bold">Image of a beautiful cat, who doesn't like cats, just
+                                    coding</p>
+                                <i class="fa-solid fa-ellipsis-vertical text-xl"></i>
+                            </div>
+                            <h3 class="text-textcolor text-sm">Ngu Helon <i class="fa-solid fa-circle-check"></i></h3>
+                            <p class="text-textcolor text-sm">1M views -> 1 hour ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
