@@ -13,14 +13,14 @@
 <body>
 
     <div class="w-full fixed top-0 left-0 flex justify-between items-center bg-normalDark px-7 py-4">
-        <div class="basis-1/4 flex justify-start space-x-10 items-center">
+        <div class="basis-1/2 flex justify-start space-x-4 items-center">
             <i class="fa-solid fa-bars text-2xl text-whiteColor"></i>
-            <a href="#" class="text-whiteColor font-bold text-xl no-underline">
+            <a href="#" class="text-whiteColor font-bold text-xs sm:text-xl no-underline">
                 <i class="fa-brands fa-youtube text-redColor text-xl"></i>YouTube
             </a>
         </div>
 
-        <div class="basis-1/2 h-10 flex items-center justify-center space-x-3">
+        <div class="basis-2/3 h-10 hidden items-center justify-center space-x-3 md:flex">
             <div class="basis-4/5 h-full flex items-center justify-center space-x-0">
                 <input type="text"
                     class="basis-4/5 h-full px-3 text-lg bg-superDark rounded-l-full outline-none text-whiteColor border border-normalgray"
@@ -32,7 +32,7 @@
                 class="fa-solid fa-microphone basis-10 h-full p-2 rounded-full bg-superDark text-whiteColor font-bold w-3"><i></i></button>
         </div>
 
-        <div class="basis-1/4 flex justify-end">
+        <div class="basis-1/3 flex justify-end">
             <ul class="basis-1/2 flex items-center justify-end space-x-4">
                 <li class="block md:hidden"><i class="fa-solid block fa-magnifying-glass text-lg text-whiteColor"></i>
                 </li>
@@ -48,7 +48,8 @@
 
 
     <section id="mainbody" class="w-full pb-3 flex items-start justify-end space-x-0 bg-normalDark">
-        <div class="menu-sidebar w-2/12 h-full pr-10 overflow-y-scroll fixed left-0 top-16 bg-normalDark self-start">
+        <div
+            class="menu-sidebar w-2/12 h-full pr-10 overflow-y-scroll fixed left-0 top-16 hidden bg-normalDark self-start xl:block">
             <ul class="w-full flex flex-col space-y-4">
                 <li class="ml-4 flex items-center space-x-5 text-superLightGray">
                     <i class="fa-solid fa-house "></i>
@@ -199,7 +200,7 @@
         </div>
         <div class="w-10/12 flex flex-col justify-end">
             <div
-                class="w-10/12 h-full fixed top-16 right-0 py-3 px-7 overflow-x-scroll bg-normalDark border border-l-0 border-normalgray">
+                class="suggestions w-full h-full fixed top-16 right-0 py-3 px-7 overflow-x-scroll bg-normalDark border border-l-0 border-normalgray xl:w-10/12">
                 <ul class="w-full flex items-center justify-between space-x-3">
                     <li class="px-3 py-1 bg-normalgray text-whiteColor text-base border border-border rounded-full">
                         All
@@ -250,7 +251,7 @@
             </div>
 
             <div
-                class="items-div w-10/12 h-5/6 fixed right-0 top-32 overflow-y-scroll grid gap-4 grid-cols-4 py-3 px-7 bg-superDark">
+                class="items-div w-full h-5/6 fixed right-0 top-32 overflow-y-scroll grid gap-3 grid-cols-1 py-3 px-7 bg-superDark  xl:w-10/12 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2">
                 <div class="item w-full ">
                     <div class="w-full block h-3/5">
                         <img src="images/cat-aesthetic-pc-wallpape7c5dn.jpg" class="w-full h-full rounded-xl" alt="">
