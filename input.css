@@ -8,3 +8,34 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+.menu-sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.menu-sidebar::-webkit-scrollbar-track {
+  background-color: #232323;
+}
+
+.menu-sidebar::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 70px;
+  visibility: hidden;
+}
+
+.menu-sidebar:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+.items-div::-webkit-scrollbar {
+  width: 8px;
+}
+
+.items-div::-webkit-scrollbar-track {
+  background-color: #111;
+}
+
+.items-div::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 70px;
+}
